@@ -5,12 +5,10 @@
 #    pip-compile --output-file=requirements.txt requirements.in
 #
 asgiref==3.2.7            # via django
-atomicwrites==1.4.0       # via pytest
 attrs==19.3.0             # via pytest
 certifi==2020.4.5.1       # via requests
 chardet==3.0.4            # via requests
-colorama==0.4.3           # via pytest
-django==3.0.5             # via -r requirements.in, djangorestframework, djangorestframework-simplejwt
+django==3.0.7             # via -r requirements.in, djangorestframework, djangorestframework-simplejwt
 djangorestframework-simplejwt==4.4.0  # via -r requirements.in
 djangorestframework==3.11.0  # via -r requirements.in, djangorestframework-simplejwt
 idna==2.9                 # via requests
@@ -28,6 +26,3 @@ six==1.14.0               # via packaging
 sqlparse==0.3.1           # via django
 urllib3==1.25.9           # via requests
 wcwidth==0.1.9            # via pytest
-zipp==3.1.0               # via importlib-metadata
-django-cors-headers
-django-filter
